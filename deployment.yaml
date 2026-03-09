@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 172.25.210.161/myproject/myapp:latest
+        image: harbor.ricostrathconnect.space/myproject/myapp:latest
         imagePullPolicy: Always
 ---
 apiVersion: v1
